@@ -1,0 +1,22 @@
+{
+  "name": "run-puppeteer-example",
+  "version": "1.0.0",
+  "description": "An example of how to use run-puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "jest-cli": "^24.9.0",
+    "jest-environment-puppeteer": "^4.3.0",
+    "puppeteer": "^1.19.0",
+    "run-puppeteer": "git+ssh://git@github.com/danew/run-puppeteer.git"
+  }
+}
